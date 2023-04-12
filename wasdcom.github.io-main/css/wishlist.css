@@ -1,0 +1,260 @@
+html {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bucket {
+    background-size: cover;
+    background-position: center;
+    margin: 8px;
+    position: relative;
+
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    word-break: keep-all;
+}
+
+.img1 {
+    background-image: url("/img/bucket-red.png");
+    color: white;
+}
+
+.img2 {
+    background-image: url("/img/bucket-lightred.png");
+    color: tomato;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.done::after {
+    content: "";
+    width: 70%;
+    height: 70%;
+    background-image: url("/img/stamp.png");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 20%;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.msg {
+    margin: -10px 0 30px;
+    color: black;
+}
+
+.bg-t2 {
+    background-image: url("/img/bg-grid.png");
+    width: 360px;
+    background-size: cover;
+    background-position: center;
+}
+
+.title-t2 {
+    background-color: blue;
+    border-radius: 10px;
+    padding: 4px 14px;
+    color: white;
+}
+
+.img1-t2 {
+    background-image: url("/img/bucket-blue.png");
+    color: white;
+}
+
+.img2-t2 {
+    background-image: url("/img/bucket-lightblue.png");
+    color: blue;
+}
+
+.bg-t3 {
+    background-image: url("/img/bg-paper.png");
+    width: 360px;
+    background-size: cover;
+    background-position: center;
+}
+
+.title-t3 {
+    background-color: gray;
+    border-radius: 10px;
+    padding: 4px 14px;
+    color: white;
+}
+
+.img1-t3 {
+    background-image: url("/img/bucket-spa.png");
+}
+
+.img2-t3 {
+    background-image: url("/img/bucket-rtan.png");
+}
+
+.bg-t4 {
+    background-image: url("/img/bg-sky.png");
+    width: 360px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+.title-t4 {
+    color: yellow;
+}
+
+.img1-t4 {
+    background-image: url("/img/bucket-shape1.png");
+}
+
+.img2-t4 {
+    background-image: url("/img/bucket-shape2.png");
+}
+
+.img3-t4 {
+    background-image: url("/img/bucket-shape3.png");
+}
+
+.img4-t4 {
+    background-image: url("/img/bucket-longshape1.png");
+    width: 300px;
+}
+
+.img5-t4 {
+    background-image: url("/img/bucket-longshape2.png");
+    width: 300px;
+    height: 200px;
+}
+
+.done-t4::after {
+    content: "";
+    width: 100px;
+    height: 100px;
+    background-image: url("/img/stamp.png");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 25%;
+}
+
+.title-t5 {
+    background-color: none;
+    color: tomato;
+}
+
+.bg-t5 {
+    background-image: url("/img/bg-clay.png");
+    background-size: cover;
+    background-position: center;
+    width: 360px;
+    background-size: cover;
+    background-position: center;
+}
+
+.img1-t5 {
+    background-image: url("/img/bucket-pic1.png");
+}
+
+.img2-t5 {
+    background-image: url("/img/bucket-pic2.png");
+}
+
+.img3-t5 {
+    background-image: url("/img/bucket-pic3.png");
+}
+
+.img4-t5 {
+    background-image: url("/img/bucket-pic4.png");
+}
+
+.img5-t5 {
+    background-image: url("/img/bucket-pic5.png");
+}
+
+.img6-t5 {
+    background-image: url("/img/bucket-pic6.png");
+}
+
+.bg-t6 {
+    background-image: url("/img/bg-note.png");
+    color: black;
+}
+
+.title-t6 {
+    background-color: none;
+}
+
+.img1-t6 {
+    background-image: url("/img/bucket-highlight.png");
+}
+
+.img2-t6 {
+    background-image: url("/img/bucket-throughline.png");
+}
+
+.img3-t6 {
+    background-image: url("/img/bucket-colorpen1.png");
+}
+
+.img4-t6 {
+    background-image: url("/img/bucket-colorpen2.png");
+}
+
+.bg-t6 h1, p {
+    color: white;
+}
+
+.bg-t6 div {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.bg-t6 div div {
+    width: 400px;
+
+}
+
+.bg-t7 {
+    max-width: 360px;
+    background-image: url("/img/bg-red.png");
+    background-size: cover;
+    background-position: center;
+
+    color: #f85151;
+}
+
+.title-t7 {
+    font-size: 28px;
+    margin-top: 80px;
+    background-color: white;
+    box-shadow: 1px 1px 0 tomato;
+    border-radius: 8px;
+}
+
+.img1-t7 {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #f85151;
+    border-radius: 8px;
+}
+
+.hidden {
+    visibility: hidden;
+}
